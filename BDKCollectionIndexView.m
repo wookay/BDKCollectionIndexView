@@ -86,6 +86,10 @@
     return self;
 }
 
+-(void) setDirection:(BDKCollectionIndexViewDirection)direction {
+    _direction = direction;
+}
+
 -(void)setupWithIndexTitles:(NSArray *)indexTitles {
     
     _currentIndex = 0;
